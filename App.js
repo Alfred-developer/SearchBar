@@ -78,6 +78,7 @@ export default function App() {
                   autoCorrect={false}
                   value={searchQuery}
                   onChangeText={(query) => handlerSearch(query)}
+                  
                   />
       <FlatList 
         data={data}
@@ -108,9 +109,19 @@ const styles = StyleSheet.create({
   searchbar: {
     paddingHorizontal: 20,
     paddingVertical: 10,
-    borderColor:'#ccc',
-    borderWidth: 1,
-    borderRadius: 8
+    marginVertical: 20,
+    fontSize: 20,
+    borderColor:'gray',
+    borderWidth: 2,
+    borderRadius: 20,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
   },
   itemContainer: {
     flexDirection: 'row',
