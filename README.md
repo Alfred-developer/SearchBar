@@ -64,15 +64,15 @@ git clone https://github.com/Alfred-developer/SearchBar.git
 ```bash
 cd SearchBar
 ```
-**3. Access the folder**
+**3. Install Expo Cli**
 ```bash
 npm install -g expo-cli exp
 ```
-**4. Access the folder**
+**4. Install dependencies**
 ```bash
 npm i
 ```
-**5. Access the folder**
+**5. Run app**
 ```bash
 npx expo start
 ```
